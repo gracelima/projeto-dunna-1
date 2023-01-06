@@ -1,0 +1,49 @@
+.sobreContainer {
+
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/sobreimg.png');
+    
+}
+
+.textoSobre {
+color: rgb(28, 36, 14);
+background-color: #B08C4A;
+width: 600px;
+height: 50vh;
+display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+padding: 2rem;
+text-align: justify;
+
+}
+
+.imgSobre {
+
+    
+    background-color: #383329;
+}
+
+.imgSobre, .textoSobre {
+
+display: flex;
+flex-direction: column;
+margin: 30px;
+
+}
+
+@media(max-width: 700px) {
+    .textoSobre {
+
+min-height: 60vh;
+
+    }
+
+}
