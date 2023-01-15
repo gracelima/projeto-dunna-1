@@ -2,7 +2,7 @@
 
     display: flex;
     background-color: #B08C4A;
-    min-height: 22vh;
+    min-height: 10vh;
 
 
 }
@@ -150,6 +150,7 @@ font-size: 10px;
         flex-direction: column;
         justify-content: center;
          margin-left: 0;
+         max-height: 60px;
 
     }
 
@@ -170,7 +171,7 @@ margin: auto;
     }
 
     .containerImages {
-margin: auto;
+       margin: auto;
         max-width: 100%;
     }
 
