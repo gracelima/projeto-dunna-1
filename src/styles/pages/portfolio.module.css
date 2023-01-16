@@ -73,7 +73,7 @@
 
 .cardLink:after {
   content: "";
-  background-color: #0CF;
+  
   opacity: 0;
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   z-index: -1;
@@ -121,7 +121,7 @@
     justify-content: center;
     width: 100%;
     gap: 3px;
-background-color: blueviolet;
+
   }
 
 
@@ -134,7 +134,7 @@ background-color: blueviolet;
     gap: 0px;
     font-size: 1rem;
     cursor: pointer;
-background-color: #0CF;
+
   }
 
   .cardImage {
