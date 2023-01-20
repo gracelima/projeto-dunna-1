@@ -6,8 +6,11 @@ export function Art2 () {
          
         <div className={styles.container}>
           <img className={styles.imagePerfil} src="./perfis/profileart2.jpg"  />
+          <div>
           <h1 className={styles.nome}>Mario Ramon</h1>
-          
+          <a href="https://www.instagram.com/mramon013/" target="_blank">
+          <img className={styles.iconeInsta} src="https://cdn-icons-png.flaticon.com/512/1400/1400813.png" alt="icone instagram" /></a>
+          </div>
           <p className={styles.paragrafo}>  <p>Artes Visuais</p> "Negro, 26 anos, natural de Fortaleza e residindo em Juazeiro do Norte. Acadêmico do Curso em Artes Visuais, Artista, produtor cultural e pesquisador da Cultura Popular Brasileira e Afrobrasileira. </p>
           
         </div>

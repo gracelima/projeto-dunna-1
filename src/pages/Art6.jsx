@@ -6,10 +6,12 @@ export function Art6 () {
          
 
         <div className={styles.container}>
-          <img className={styles.imagePerfil} src= "./perfis/profileart6.jpeg"  />
-          <h1 className={styles.nome}>Swank
-          
-          </h1>
+          <img className={styles.imagePerfil} src= "./perfis/profileart6.jpg"  />
+          <div>
+          <h1 className={styles.nome}>Swank</h1>
+          <a href="https://www.instagram.com/swankzin/" target="_blank">
+          <img className={styles.iconeInsta} src="https://cdn-icons-png.flaticon.com/512/1400/1400813.png" alt="icone instagram" /></a>
+          </div>
           
           <p className={styles.paragrafo}>  <p>Música</p> "Fui Mc de batalha, e sempre gostei de música desde muito novo. Sempre escutei de tudo, de raça negra ao funk mais pesado.
 As batalhas me ajudaram a dar início no rap, e em menos de um ano nas batalhas eu já me via escrevendo minhas próprias letras. Hoje eu tenho músicas de trap, pop, detroit, drill entre outras que eu ainda não lancei. Não sou mais mc de batalha, pois preferi focar 100% em música.

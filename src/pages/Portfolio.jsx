@@ -32,7 +32,7 @@ const list = [
     id: 4,
     nome: 'Duda Art',
     nicho: 'Ilustração',
-    imagem: './illustration/artista4/5art4.png',
+    imagem: './illustration/artista4/5art4.jpg',
     link:'Art4'
   },
 

@@ -28,9 +28,9 @@ setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth)
     <>
 
       <Header  title="MERGULHE EM UMA GALERIA ONLINE REPLETA DE ARTISTAS INDEPENDENTES DA TERRA DO SOL. " image={inicioImg} />
-      
+      <h4 className={styles.paragrafo}>ARRASTE PARA O LADO E CONFIRA UMA PRÉVIA DAS OBRAS</h4>
       <div className={styles.Inicio}>
-
+      
         <motion.div ref={carousel} className={styles.carousel} whileTap={{cursor: "grabbing"}}>
           <motion.div className={styles.inner}
           drag="x"
@@ -42,7 +42,7 @@ setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth)
             {images.map(image => (
               <motion.div className={styles.item} key={image}>
                 <img src={image} alt="texto alt" />
-
+                
               </motion.div>
 
             ))}

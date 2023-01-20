@@ -1,6 +1,6 @@
 .headerContainer {
   padding: 4rem;
-  background: #F2BF5E;
+  background: #B08C4A;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -13,7 +13,7 @@
 .headerInicio {
  
   padding: 4rem;
-  background: #F2BF5E;
+  background: #B08C4A;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -26,7 +26,7 @@
 
 .headerTitleInicio {
 
-  color: #fff;
+  color: rgba(255, 255, 255, 0.658);
   font-size:28px;
   padding: auto;
   width: 90vh;
@@ -46,13 +46,15 @@ text-align: left;
 
 .headerContato {
 
-  padding: 4rem;
-  background: #F2BF5E;
+  padding: 7rem;
+  background: #B08C4A;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 2rem
+  gap: 2rem;
+  height: 100%;
+
 
 }
 
@@ -88,7 +90,7 @@ width: 10rem;
   .headerInicio {
  font-size: 11px;
     padding: 4rem;
-    background: #F2BF5E;
+    background: #B08C4A;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -100,7 +102,7 @@ width: 10rem;
 
   .headerTitleInicio {
 
-    color: #fff;
+    color: rgba(255, 255, 255, 0.712);
     font-size:18px;
     padding: auto;
     width: 40vh;
@@ -122,12 +124,12 @@ width: 10rem;
 
   .headerContato {
    max-width: 100%;
-    background: #F2BF5E;
+    background: #B08C4A;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-height: 200px;
+    height: 200px;
   
   }
   
@@ -157,3 +159,16 @@ flex-direction: column;
 }
 
 
+@media(max-width: 765px) { 
+
+  .headerTitleContato {
+   
+    font-size: 18pt;
+    width: 20rem;
+    max-height: 70px;
+    text-align: center;
+  
+    }
+
+
+}

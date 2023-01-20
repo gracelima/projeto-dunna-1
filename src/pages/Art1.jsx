@@ -7,11 +7,15 @@ export function Art1 () {
 
         <div className={styles.container}>
           <img className={styles.imagePerfil} src="./perfis/profileart1.jpg" alt="" />
-          <h1 className={styles.nome}>Melissa Prates
+          <div>
+          <h1 className={styles.nome}> Melissa Prates </h1>
+          <a href="https://www.instagram.com/melzier/" target="_blank">
+          <img className={styles.iconeInsta} src="https://cdn-icons-png.flaticon.com/512/1400/1400813.png" alt="icone instagram" />
+          </a>
           
-          </h1>
-          
-          <p className={styles.paragrafo}>  <p>Desing & Ilustração</p> "Atualmente atendo pelo nome artístico, Melzier.
+
+          </div>
+        <p className={styles.paragrafo}>  <p>Desing & Ilustração</p> "Atualmente atendo pelo nome artístico, Melzier.
 Desenvolvi a proximidade com a arte no início da minha formação acadêmica, no curso de Design. Em 2018, estudando uma disciplina denominada Representação Visual, aflorou em mim o interesse pelo desenho.
 No decorrer da pandemia tive a oportunidade de desenvolver a pintura a óleo e intimidade com gravuras. Durante 17 meses fui bolsista do Museu da UFC (MAUC) e atuei no Laboratório de Práticas Experimentais em Arte e Educação Museal (LAPEArte/Mauc), onde ministrei algumas oficinas com temas dos meus estudos, também junto dos meus amigos bolsistas e coordenadores fundamos o curso de Desenho Básico do Mauc."</p>
           
@@ -40,3 +44,13 @@ No decorrer da pandemia tive a oportunidade de desenvolver a pintura a óleo e i
       </>
     )
   }
+
+
+
+  /*
+  <a href='https://www.instagram.com/ggraxie/' target="blank"> </a>
+  
+  <img src="https://cdn-icons-png.flaticon.com/512/1400/1400813.png" alt="icone instagram" </img>
+  
+  
+  */

@@ -11,3 +11,12 @@
   color: rgb(110, 110, 110);
   font-size: 1rem;
 }
+
+.iconeInsta {
+   height: 22px;
+   width: 22px;
+   cursor: pointer;
+   display: flex;
+   margin-left: 40%;
+   
+}

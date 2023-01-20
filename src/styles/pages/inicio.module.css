@@ -4,14 +4,28 @@
     box-sizing: border-box
 }
 
+.paragrafo {
+    font-size: 14pt;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #b08c4a77;
+  
+}
+
+
+
+
 .Inicio {
     max-width: 990px;
     width: 100%;
     margin: 0 auto;
-    min-height: 100vh;
+    min-height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 
@@ -42,6 +56,14 @@
 .Inicio {
 
     min-height: 80vh;
+    
+}
+
+.paragrafo {
+   text-align: center;
+    font-size: 10pt;
+    width: 90%;
+    margin-left: 15px;
     
 }
 

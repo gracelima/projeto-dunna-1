@@ -1,13 +1,13 @@
 .sobreContainer {
 
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     width: 100%;
     margin: 0 auto;
     min-height: 900px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('/sobreimg.png');
+    background-image: url('perfis/sobreimg.png');
     
 }
 
@@ -42,8 +42,11 @@ margin: 30px;
 @media(max-width: 700px) {
     .textoSobre {
 
-min-height: 60vh;
+     min-height: 80vh;
 
     }
+
+    
+
 
 }
