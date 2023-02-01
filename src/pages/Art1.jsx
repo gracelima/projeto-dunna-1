@@ -8,7 +8,7 @@ export function Art1 () {
         <div className={styles.container}>
           <img className={styles.imagePerfil} src="./perfis/profileart1.jpg" alt="" />
           <div>
-          <h1 className={styles.nome}> Melissa Prates </h1>
+          <h1 className={styles.nome}> Melzier </h1>
           <a href="https://www.instagram.com/melzier/" target="_blank">
           <img className={styles.iconeInsta} src="https://cdn-icons-png.flaticon.com/512/1400/1400813.png" alt="icone instagram" />
           </a>

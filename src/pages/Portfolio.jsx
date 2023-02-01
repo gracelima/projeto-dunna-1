@@ -3,7 +3,7 @@ import styles from '../styles/pages/portfolio.module.css'
 const list = [
   {
     id: 1,
-    nome: 'Melissa Prates',
+    nome: 'Melzier',
     nicho: 'Desing & Ilustração',
     imagem: "./illustration/artista1/1art2.jpg",
     link:'Art1'

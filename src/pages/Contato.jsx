@@ -18,7 +18,7 @@ export function Contato() {
       <div className={styles.email}>
         
         <h3>entre em contato por email para saber mais</h3>
-        <h2>projetodunna@gmail.com</h2>
+        <h2>projetodunnasite@gmail.com</h2>
       </div>
     </>
   )
